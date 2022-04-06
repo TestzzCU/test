@@ -1,0 +1,4 @@
+@echo off
+@echo executing sql script
+SQLCMD -s 127.0.0.1 -d kaarma  -u root -p root -i="alter_table.sql"
+PAUSE
